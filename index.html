@@ -1,0 +1,48 @@
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive web design</title>
+    <link rel="stylesheet" href="style.css" />
+    
+ <body>
+    <!--Top Navbar-->
+    <nav class="navbar">
+      <div class="nav-left">
+         <div class="toggle-btn" id="toggleBtn">☰</div>
+      </div>
+      
+        <h2 >My Pets</h2>
+       
+    </nav>
+    <!--Sidebar-->
+    <div class="sidebar" id="sidebar">
+        <ul class="menu">
+      <li><i>🏠</i><span><a href="about_me.html">About Me</a></span></li>
+      <li><i>🔍</i><span><a href="search.html">Search</a></span></li>
+      <li><i>📞</i><span><a href ="contact.html">Contact</a></span></li>
+        </ul>
+    </div>
+
+     <!-- Main Content -->
+  <div class="main-content" id="mainContent">
+   <div class ="slider">
+    <div class="img-box">
+  <img src ="photo\parrot.jpg" alt ="desc image1"/>
+  <img src ="photo\cat.jpg" alt ="desc image2"/>
+  <img src ="photo\dog.jpg" alt="desc image3"/>
+  
+    </div>
+   
+
+    <div class="button">
+      <button onClick ="prevImage()"><</button>  
+      <button onClick ="nextImage()">></button>  
+    </div>
+      </div>
+      
+    <script src="script.js"></script>
+ </body>
+ </html>
