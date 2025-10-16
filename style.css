@@ -176,6 +176,19 @@ button{
 
 }
 
+ .sidebar{
+    position:fixed;
+    top:70px; /*below navbar*/
+    left:0;
+    width:0;
+    height:calc(100vh - 70px);
+    background-color:#111;
+    color:white;
+    overflow: hidden;
+    transition:width 0.4s ease;
+    z-index: 2;
+ }
+
 .toggle-btn {
   background: #222;
   color: white;

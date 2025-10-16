@@ -20,7 +20,7 @@ body{
 .contact{
 position: absolute;
 padding:20px;
-top:50px;
+top:15%;
 right:80px;
 box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
 z-index: 3;
@@ -74,7 +74,7 @@ button:hover{
 }
 .footer{
    position:fixed;
-   height:calc(100vh - 90vh);
+   height:30px;
    bottom:0;
    left:0;
    width:100%;
@@ -96,8 +96,15 @@ button:hover{
    }
 .contact{
    position: absolute;
-   right:10px;
+   right:6px;
    top:50px;
+   padding:20px;
+   box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+   z-index: 3;
+   max-width:200px;
+   height:350px;
+   background-color:white;
+
 }
   form input{
    width:100px;
