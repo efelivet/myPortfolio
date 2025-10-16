@@ -17,23 +17,28 @@ body{
     flex-wrap: wrap;
  
  }
+ .menu{
+   margin-top: 6px;
+ }
  .myImg{
      width:150px;
      height:150px;
-     margin:2px 25px;
+     margin:2px 0;
+     margin-bottom: 20px;
     
  }
  .myImg img{
-   max-width: 100px;
+   max-width: 100%;
    height:auto;
    object-fit: cover;
  }
 
  .leftSection{
     flex:1;
+    height:80vh;
     z-index: 2;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    padding:6px;
+    padding:2px;
     margin-right: 8px;
     background-color: white;
     
@@ -41,7 +46,7 @@ body{
  .rightSection{
     flex:4;
     z-index: 2;
-    margin:4px 0;
+    margin:4px 7px;
    background-color: white;
  }
 
@@ -59,43 +64,50 @@ body{
   font-size: 20px;
 }
 
+.left{
+   margin-left: 8px;
+}
+
 .javskillBar{
      width:200px;
-     height:15px;
+     height:18px;
      border-radius: 6px;
      background-color:grey;
+     margin-left: 8px;
 }
 .javbarPercent{
     width:70%;
     background-color: teal;
     border-radius: 6px;
-    height:15px;text-align: center;
+    height:18px;text-align: center;
     color:white;
 }
 .htmlskillBar{
   width:200px;
-     height:15px;
+     height:18px;
      border-radius: 6px;
-     background-color:grey;   
+     background-color:grey;  
+     margin-left: 8px; 
 }
 .htmlbarPercent{
  width:85%;
     background-color: teal;
     border-radius: 6px;
-    height:15px;text-align: center;
+    height:18px;text-align: center;
     color:white;
 }
 .cssskillBar{
      width:200px;
-     height:15px;
+     height:18px;
      border-radius: 6px;
-     background-color:grey;   
+     background-color:grey;  
+     margin-left: 8px; 
 }
 .cssbarPercent{
     width:80%;
     background-color: teal;
     border-radius: 6px;
-    height:15px;text-align: center;
+    height:18px;text-align: center;
     color:white;
 }
 
@@ -153,6 +165,31 @@ margin:2px 8px;
    display:flex;
    flex-direction: column;
   }
+
+  .myImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+      
+ }
+
+  .myImg img{
+   width:200px;
+   object-fit: cover;
+   height: auto;
+ }
+
+
+ .menu{
+   margin-top: 40px;
+ }
+ .menu li{
+    display:flex;
+    align-items: center;
+    padding:5px;
+}
+
   .social-info{
    display:flex;
    flex-direction: row;

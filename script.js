@@ -14,6 +14,7 @@ toggleBtn.addEventListener("click",()=>{
     toggleBtn.textContent = 'X';
     toggleBtn.style.color="red";
 
+
     isOpen = true;
    }else{
     //Close sidebar
