@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 body{
- 
-      background-color: rgb(67, 67, 235);
+  background-color: rgb(67, 67, 235);
    
 }
 .wrapper{
    display: flex;
   flex-wrap: wrap;
 position: relative;
+  
+   
 }
 
 .contact{
@@ -58,8 +59,8 @@ button{
    padding:6px;
 }
 .footer{
-   position:absolute;
-   height:60px;
+   position:fixed;
+   height:calc(100vh - 90vh);
    bottom:0;
    left:0;
    width:100%;
